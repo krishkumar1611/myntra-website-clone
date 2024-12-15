@@ -1,0 +1,38 @@
+#container{
+    width: screen;
+    height: screen;
+  display: flex;
+
+  }
+
+
+.wishlist-item-container {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    
+    border-bottom: 1px solid #ddd;
+    width: 400px;
+    height: 600px;
+    margin: 10px;
+  }
+  
+  .wishlist-item-img {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+  }
+
+
+
+  
+  .remove-from-wishlist {
+    background-color: red;
+    cursor: pointer;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-bottom: 30px;
+  }
+  
